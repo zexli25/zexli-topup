@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopUpzex - Toko Top Up Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">TopUpzex</h1>
+    <ul class="flex space-x-4">
+      <li><a href="#" class="hover:text-blue-500">Beranda</a></li>
+      <li><a href="#produk" class="hover:text-blue-500">Produk</a></li>
+      <li><a href="#checkout" class="hover:text-blue-500">Checkout</a></li>
+      <li><a href="#kontak" class="hover:text-blue-500">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-12 text-center">
+    <h2 class="text-4xl font-bold">Top Up Game Cepat & Murah</h2>
+    <p class="mt-2">Mobile Legends, Free Fire, PUBG, Genshin Impact & lainnya</p>
+    <a href="#produk" class="mt-4 inline-block bg-white text-blue-500 px-6 py-2 rounded-full font-semibold">Mulai Belanja</a>
+  </section>
+
+  <!-- Produk -->
+  <section id="produk" class="py-10 px-4">
+    <h3 class="text-2xl font-bold mb-6 text-center">Pilih Game</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- Game Card -->
+      <div class="bg-white shadow rounded-lg overflow-hidden">
+        <img src="https://via.placeholder.com/300x180" alt="Mobile Legends" class="w-full">
+        <div class="p-4">
+          <h4 class="text-lg font-bold">Mobile Legends</h4>
+          <p class="text-sm text-gray-600">Top up diamond ML cepat dan aman</p>
+          <a href="#checkout" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded">Top Up Sekarang</a>
+        </div>
+      </div>
+      <!-- Ulangi card untuk game lain -->
+    </div>
+  </section>
+
+  <!-- Checkout Form -->
+  <section id="checkout" class="py-10 px-4 bg-white">
+    <h3 class="text-2xl font-bold mb-6 text-center">Checkout</h3>
+    <form class="max-w-xl mx-auto space-y-4">
+      <div>
+        <label class="block font-semibold mb-1">Pilih Game</label>
+        <select class="w-full border rounded px-3 py-2">
+          <option>Mobile Legends</option>
+          <option>Free Fire</option>
+          <option>PUBG Mobile</option>
+          <option>Genshin Impact</option>
+        </select>
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">User ID / UID</label>
+        <input type="text" class="w-full border rounded px-3 py-2" placeholder="Masukkan User ID">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Nominal Top Up</label>
+        <select class="w-full border rounded px-3 py-2">
+          <option>86 Diamond - Rp 20.000</option>
+          <option>172 Diamond - Rp 40.000</option>
+          <option>256 Diamond - Rp 60.000</option>
+          <option>350 Diamond - Rp 80.000</option>
+        </select>
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Metode Pembayaran</label>
+        <select class="w-full border rounded px-3 py-2">
+          <option>Transfer Bank</option>
+          <option>OVO</option>
+          <option>DANA</option>
+          <option>Gopay</option>
+        </select>
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Nomor HP (untuk konfirmasi)</label>
+        <input type="text" class="w-full border rounded px-3 py-2" placeholder="08xxxxxxxxxx">
+      </div>
+      <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded font-semibold">Bayar Sekarang</button>
+    </form>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-white py-10 px-4 text-center">
+    <h3 class="text-2xl font-bold mb-4">Hubungi Kami</h3>
+    <p class="mb-2">WhatsApp: <a href="https://wa.me/629602897243" class="text-blue-500">+62 896 0289 7243</a></p>
+    <p>Email: <a href="mailto:support@topupin.id" class="text-blue-500">support@topupin.id</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 TopUpin. All rights reserved.</p>
+  </footer>
+</body>
+</html>
